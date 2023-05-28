@@ -27,3 +27,7 @@ Spring Academy <br>
 | Update    | /cashcards/{id} | PUT         | 204 (NO DATA)   |
 | Delete    | /cashcards/{id} | DELETE      | 204 (NO DATA)   |
 
+- Repositories & Spring Data
+  - JBDC
+    - ORM: object-relational mapping
+  - H2
