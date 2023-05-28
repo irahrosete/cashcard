@@ -2,7 +2,7 @@
 Spring Academy <br>
 ### [Building a REST API with Spring Boot](https://spring.academy/courses/building-a-rest-api-with-spring-boot)
 
-#### Module 1: 
+### Module 1: 
 - Spring vs Spring Boot
 - Inversion of Control and Dependency Injection
 - API Contracts & JSON
@@ -31,3 +31,8 @@ Spring Academy <br>
   - JBDC
     - ORM: object-relational mapping
   - H2
+
+### Module 2:
+- Idempotent
+  - results in the same outcome if performed more than once
+- 
