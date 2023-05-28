@@ -2,7 +2,7 @@
 ### Spring Academy
 [Building a REST API with Spring Boot](https://spring.academy/courses/building-a-rest-api-with-spring-boot)
 
-- Invertion of Control and Dependency Injection
+- Inversion of Control and Dependency Injection
 - Test-Driven Development
   - JUnit
   - AssertJ
