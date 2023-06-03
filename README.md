@@ -41,3 +41,12 @@ Spring Academy <br>
   - Page
   - Pageable
   - PageAndSortingRepository
+- [JsonPath](https://github.com/json-path/JsonPath)
+- Security
+  - Spring Security implements authentication in the Filter Chain
+  - Spring Security provides authorisation via Role-Based Access Control
+  - Same Origin Policy (SOP)
+    - Cross-Origin Request Sharing (CORS) @CrossOrigin
+  - Common web exploits:
+    - Cross-Site Request Forgery (CSRF) "sea-surf"
+    - Cross-Site Scripting (XSS)
