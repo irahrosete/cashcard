@@ -35,4 +35,6 @@ Spring Academy <br>
 ### Module 2:
 - Idempotent
   - results in the same outcome if performed more than once
+- HTTP response for `201 CREATED` must contain the header `location` containing the URI of the created resource
+  - Location=/cashcards/42
 - 
