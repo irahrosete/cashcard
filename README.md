@@ -61,3 +61,5 @@ Spring Academy <br>
   | PUT         | Update    | Client supplies URI              | 204 (NO CONTENT) | (empty)              | Replaces the resource: The entire record is replaced by the object in the Request |
   | PATCH       | Update    | Client supplies URI              | 200 (OK)         | The updated resource | Partial Update: modify only fields included in the request on the existing record |
 
+- DELETE
+  - Soft delete, hard delete
