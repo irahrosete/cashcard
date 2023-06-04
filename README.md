@@ -50,3 +50,16 @@ Spring Academy <br>
   - Common web exploits:
     - Cross-Site Request Forgery (CSRF) "sea-surf"
     - Cross-Site Scripting (XSS)
+
+## Module 3:
+- POST, PUT, PATCH
+
+  | HTTP Method | Operation | Definition                       | Response Code    | Response Body        | What does it do?                                                                  |
+  |-------------|-----------|----------------------------------|------------------|----------------------|-----------------------------------------------------------------------------------|
+  | POST        | Create    | Server generates and returns URI | 201 (CREATED)    | The created resource | Creates a sub-resource ("under" or "within" the passed URI)                       | 
+  | PUT         | Create    | Client supplies URI              | 201 (CREATED)    | The created resource | Creates a resource (at the Request URI)                                           |
+  | PUT         | Update    | Client supplies URI              | 204 (NO CONTENT) | (empty)              | Replaces the resource: The entire record is replaced by the object in the Request |
+  | PATCH       | Update    | Client supplies URI              | 200 (OK)         | The updated resource | Partial Update: modify only fields included in the request on the existing record |
+
+- DELETE
+  - Soft delete, hard delete
