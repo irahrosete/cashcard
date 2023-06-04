@@ -189,7 +189,12 @@ class CashCardApplicationTests {
 	void shouldDeleteAnExistingCashCard() {
 		ResponseEntity<Void> response = restTemplate
 				.withBasicAuth("owner1", "abc123")
-				.exchange("/cashcards/99999", HttpMethod.DELETE, null, Void.class);
+				.exchange("/cashcards/99", HttpMethod.DELETE, null, Void.class);
 		assertThat(response.getStatusCode()).isEqualTo(HttpStatus.NO_CONTENT);
+
+		ResponseEntity<String> getResponse = restTemplate
+				.withBasicAuth("owner1", "abc123")
+				.exchange("/cashcards/99", HttpMethod.GET, null, String.class);
+		assertThat(getResponse.getStatusCode()).isEqualTo(HttpStatus.NOT_FOUND);
 	}
 }
